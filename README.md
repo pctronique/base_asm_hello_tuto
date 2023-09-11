@@ -2,34 +2,34 @@
 
 Pour un tuto sur le fonctionnement du microprocesseur.
 
-#### Linux
+## Linux
 `$ ./bin/terminal.sh`
 
-#### terminal
-## compile 1
+## terminal
+### compile 1
 `# ./comp.sh`
 `# exit`
 
-## compile 2
+### compile 2
 `# nasm -f win64 stringAsm1.asm -o stringAsm1.o`
 `# ld stringAsm1.o -o stringAsm1`
 
-## disassemble
+### disassemble
 `# objdump --disassemble-all -s stringAsm1`
-# OR
+#### OR
 `# objdump --disassemble -sj .data stringAsm1`
-# OR
+#### OR
 `# objdump --disassemble-all -s stringAsm1`
-# OR
+#### OR
 `# objdump --disassemble-all -s stringAsm1`
-# OR
+#### OR
 `# objdump -D stringAsm1`
 
-## search package
+### search package
 `# apt-cache search gcc`
 
-## install package
+### install package
 `# apt install gcc`
 
-## search file
+### search file
 `# find -name gcc`
