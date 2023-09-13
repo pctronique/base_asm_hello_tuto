@@ -6,28 +6,44 @@ Pour un tuto sur le fonctionnement du microprocesseur.
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#linux">Linux</a></li>
-    <li><a href="#compile_1">compile 1</a></li>
-    <li><a href="#compile_2">compile 2</a></li>
-    <li><a href="#disassemble">Disassemble</a></li>
     <li><a href="#search_package">Search package</a></li>
     <li><a href="#install_package">Install package</a></li>
+    <li><a href="#compile_1">Compile 1</a></li>
+    <li><a href="#compile_2">Compile 2</a></li>
+    <li><a href="#disassemble">Disassemble</a></li>
   </ol>
 </details>
 
 ## Linux
+
 ```
 $ ./install.sh
 $ ./bin/terminal.sh
 ```
+## Search package
 
-## compile 1
+```
+$ ./bin/terminal.sh
+# apt-cache search gcc
+```
+
+## Install package
+
+```
+$ ./bin/terminal.sh
+# apt install gcc
+```
+
+## Compile 1
+
 ```
 $ ./bin/terminal.sh
 # ./comp.sh
 # exit
 ```
 
-## compile 2
+## Compile 2
+
 ```
 $ ./bin/terminal.sh
 # nasm -f win64 stringAsm1.asm -o stringAsm1.o
@@ -35,43 +51,37 @@ $ ./bin/terminal.sh
 ```
 
 ## disassemble
+
 ```
 $ ./bin/terminal.sh
 $ ./bin/terminal.sh
 # objdump --disassemble-all -s stringAsm1
 ```
 ### OR
+
 ```
 $ ./bin/terminal.sh
 # objdump --disassemble -sj .data stringAsm1
 ```
 
 ### OR
+
 ```
 $ ./bin/terminal.sh
 # objdump --disassemble-all -s stringAsm1
 ```
 
 ### OR
+
 ```
 $ ./bin/terminal.sh
 # objdump --disassemble-all -s stringAsm1
 ```
 
 ### OR
+
 ```
 $ ./bin/terminal.sh
 # objdump -D stringAsm1
 ```
 
-## Search package
-```
-$ ./bin/terminal.sh
-# apt-cache search gcc
-```
-
-## Install package
-```
-$ ./bin/terminal.sh
-# apt install gcc
-```
