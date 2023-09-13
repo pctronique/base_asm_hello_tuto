@@ -6,10 +6,10 @@ Pour un tuto sur le fonctionnement du microprocesseur.
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#linux">Linux</a></li>
-    <li><a href="#search_package">Search package</a></li>
-    <li><a href="#install_package">Install package</a></li>
-    <li><a href="#compile_1">Compile 1</a></li>
-    <li><a href="#compile_2">Compile 2</a></li>
+    <li><a href="#search-package">Search package</a></li>
+    <li><a href="#install-package">Install package</a></li>
+    <li><a href="#compile-1">Compile 1</a></li>
+    <li><a href="#compile-2">Compile 2</a></li>
     <li><a href="#disassemble">Disassemble</a></li>
   </ol>
 </details>
