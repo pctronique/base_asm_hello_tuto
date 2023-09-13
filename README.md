@@ -5,55 +5,53 @@ Pour un tuto sur le fonctionnement du microprocesseur.
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#linux">Linux</a></li>
-    <li><a href="#search-package">Search package</a></li>
-    <li><a href="#install-package">Install package</a></li>
+    <li><a href="#création-du-conteneur">Création du conteneur</a></li>
+    <li><a href="#rechercher-un-package">Rechercher un package (Docker)</a></li>
+    <li><a href="#install-un-package">Install un package (Docker)</a></li>
     <li><a href="#compile-1">Compile 1</a></li>
     <li><a href="#compile-2">Compile 2</a></li>
     <li><a href="#disassemble">Disassemble</a></li>
   </ol>
 </details>
 
-## Linux
-
+## Création du conteneur
+Pour la création du conteneur docker pour le projet.
 ```
 $ ./install.sh
-$ ./bin/terminal.sh
 ```
-## Search package
-
+## Rechercher un package (Docker)
+Si vous avez besoin d'un package pour votre projet dans le conteneur.
+Vous pouvez rechercher les packages disponibles pour le conteneur.
 ```
 $ ./bin/terminal.sh
 # apt-cache search gcc
 ```
 
-## Install package
-
+## Install un package (Docker)
+Si vous avez besoin d'installer un package dans votre conteneur.
 ```
 $ ./bin/terminal.sh
 # apt install gcc
 ```
 
-## Compile 1
-
+## Compile
+Pour compiler votre projet.
 ```
 $ ./bin/terminal.sh
 # ./comp.sh
 # exit
 ```
 
-## Compile 2
-
-```
-$ ./bin/terminal.sh
-# nasm -f win64 stringAsm1.asm -o stringAsm1.o
-# ld stringAsm1.o -o stringAsm1
-```
-
 ## disassemble
-
+Pour décompiler votre projet.
 ```
 $ ./bin/terminal.sh
+# objdump -D stringAsm1
+```
+
+### OR
+
+```
 $ ./bin/terminal.sh
 # objdump --disassemble-all -s stringAsm1
 ```
@@ -76,12 +74,5 @@ $ ./bin/terminal.sh
 ```
 $ ./bin/terminal.sh
 # objdump --disassemble-all -s stringAsm1
-```
-
-### OR
-
-```
-$ ./bin/terminal.sh
-# objdump -D stringAsm1
 ```
 
