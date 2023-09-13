@@ -6,10 +6,10 @@ services:
 ###########################
 # Setup the PHP container
 ###########################
-    linux_gcc:
+    linux_asm:
         container_name: ${NAME_GCC_CONTAINER}
         restart: always
-        build: docker/linux_gcc
+        build: docker/linux_asm
         tty: true
         stdin_open: true
         volumes:

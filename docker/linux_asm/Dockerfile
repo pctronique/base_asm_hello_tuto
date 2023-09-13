@@ -9,3 +9,6 @@ RUN  apt-get update &&\
 
 ## NASM
 RUN  apt-get install -y --no-install-recommends nasm
+
+## CMAKE
+RUN apt install -y --no-install-recommends cmake
