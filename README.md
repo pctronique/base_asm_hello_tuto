@@ -1,4 +1,6 @@
+<div style="text-align: center">
 # base_asm_hello_tuto
+</div>
 
 Pour un tuto sur le fonctionnement du microprocesseur.
 
