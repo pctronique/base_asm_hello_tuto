@@ -3,7 +3,7 @@
 Pour un tuto sur le fonctionnement du microprocesseur.
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table des matières</summary>
   <ol>
     <li><a href="#création-du-conteneur-docker">Création du conteneur (Docker)</a></li>
     <li><a href="#rechercher-un-package-docker">Rechercher un package (Docker)</a></li>
