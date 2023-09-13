@@ -8,8 +8,7 @@ Pour un tuto sur le fonctionnement du microprocesseur.
     <li><a href="#création-du-conteneur-docker">Création du conteneur (Docker)</a></li>
     <li><a href="#rechercher-un-package-docker">Rechercher un package (Docker)</a></li>
     <li><a href="#install-un-package-docker">Install un package (Docker)</a></li>
-    <li><a href="#compile-1">Compile 1</a></li>
-    <li><a href="#compile-2">Compile 2</a></li>
+    <li><a href="#compile">Compile</a></li>
     <li><a href="#disassemble">Disassemble</a></li>
   </ol>
 </details>
