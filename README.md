@@ -6,8 +6,8 @@ Pour un tuto sur le fonctionnement du microprocesseur.
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#création-du-conteneur">Création du conteneur</a></li>
-    <li><a href="#rechercher-un-package">Rechercher un package (Docker)</a></li>
-    <li><a href="#install-un-package">Install un package (Docker)</a></li>
+    <li><a href="#rechercher-un-package-(docker)">Rechercher un package (Docker)</a></li>
+    <li><a href="#install-un-package-(docker)">Install un package (Docker)</a></li>
     <li><a href="#compile-1">Compile 1</a></li>
     <li><a href="#compile-2">Compile 2</a></li>
     <li><a href="#disassemble">Disassemble</a></li>
