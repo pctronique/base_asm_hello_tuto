@@ -5,7 +5,7 @@ Pour un tuto sur le fonctionnement du microprocesseur.
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#création-du-conteneur">Création du conteneur</a></li>
+    <li><a href="#création-du-conteneur-docker">Création du conteneur (Docker)</a></li>
     <li><a href="#rechercher-un-package-docker">Rechercher un package (Docker)</a></li>
     <li><a href="#install-un-package-docker">Install un package (Docker)</a></li>
     <li><a href="#compile-1">Compile 1</a></li>
@@ -14,7 +14,8 @@ Pour un tuto sur le fonctionnement du microprocesseur.
   </ol>
 </details>
 
-## Création du conteneur
+## Création du conteneur (Docker)
+Vous devez avoir installé Docker.
 Pour la création du conteneur docker pour le projet.
 ```
 $ ./install.sh
