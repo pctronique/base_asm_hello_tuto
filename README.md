@@ -48,27 +48,27 @@ $ ./bin/terminal.sh
 # objdump -D stringAsm1
 ```
 
-### OR
+### Ou
 
 ```
 $ ./bin/terminal.sh
 # objdump --disassemble-all -s stringAsm1
 ```
-### OR
+### Ou
 
 ```
 $ ./bin/terminal.sh
 # objdump --disassemble -sj .data stringAsm1
 ```
 
-### OR
+### Ou
 
 ```
 $ ./bin/terminal.sh
 # objdump --disassemble-all -s stringAsm1
 ```
 
-### OR
+### Ou
 
 ```
 $ ./bin/terminal.sh
