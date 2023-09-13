@@ -3,6 +3,7 @@
 Pour un tuto sur le fonctionnement du microprocesseur.
 
 ## Linux
+`$ ./install.sh`
 `$ ./bin/terminal.sh`
 
 ## terminal
