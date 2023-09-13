@@ -20,8 +20,7 @@ Pour la création du conteneur docker pour le projet.
 $ ./install.sh
 ```
 ## Rechercher un package (Docker)
-Si vous avez besoin d'un package pour votre projet dans le conteneur.
-Vous pouvez rechercher les packages disponibles pour le conteneur.
+Si vous avez besoin d'un package pour votre projet dans le conteneur. Vous pouvez rechercher les packages disponibles pour le conteneur.
 ```
 $ ./bin/terminal.sh
 # apt-cache search gcc
