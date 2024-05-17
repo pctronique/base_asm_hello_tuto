@@ -1,4 +1,8 @@
-FROM gcc:latest
+# variable environnement
+ARG VALUE_GCC_VERSION
+ARG DEF_GCC_VERSION=${VALUE_GCC_VERSION:-"latest"}
+
+FROM gcc:${DEF_GCC_VERSION}
 
 VOLUME "/home/project"
 WORKDIR "/home/project"

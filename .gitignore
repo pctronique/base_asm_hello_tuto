@@ -1,5 +1,11 @@
-project/build/
-project/dist/
-project/bin/
-project/stringAsm1.o
-project/stringAsm1
+/project/build/
+/project/dist/
+/project/bin/
+/project/stringAsm1.o
+/project/stringAsm1
+/.env
+/nbproject/private/
+/.vscode
+/.env
+/projecttmp/
+/.dockertmp/
